@@ -1,0 +1,1 @@
+Dagger only check type

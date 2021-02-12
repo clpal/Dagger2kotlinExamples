@@ -1,0 +1,1 @@
+modules binding @ bind interface as class or abstract classs
