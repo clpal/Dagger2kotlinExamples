@@ -1,9 +1,11 @@
 # Dagger 2
 Method Injection. 
+
 // Car class
 
 // method injection with car & licensePlate
     // method param is Depency of Car class
+
     @Inject
     fun attachToLicensePlate(licensePlate: LicensePlate) {
         licensePlate.attachToCar(this)
