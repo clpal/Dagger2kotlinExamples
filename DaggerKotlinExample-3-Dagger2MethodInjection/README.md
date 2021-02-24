@@ -10,13 +10,11 @@ Method Injection.
         licensePlate.attachToCar(this)
     }
 
-
 class LicensePlate {
 // method refernce constructor @Inject
-
     @Inject
     constructor()
-
+    
     fun attachToCar(car: Car) {
         Utils.showTag("License plate is attached")
     }
