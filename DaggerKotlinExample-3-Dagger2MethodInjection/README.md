@@ -3,8 +3,7 @@ Method Injection.
 
 // Car class
 
-// method injection with car & licensePlate
-    // method param is Depency of Car class
+# method injection with car & licensePlate,method param is Depency of Car class
 
     @Inject
     fun attachToLicensePlate(licensePlate: LicensePlate) {
@@ -13,7 +12,8 @@ Method Injection.
 
 
 class LicensePlate {
-// method refernce constructor @Inject
+# method refernce constructor @Inject
+
     @Inject
     constructor()
 
